@@ -2,7 +2,7 @@
 title: "marki"
 author: "AP"
 date: '2022-06-17'
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +19,10 @@ When you click the **Knit** button a document will be generated that includes bo
 
 #hejhej#
 summary(cars)
+library(knitr)
+kable(summary(cars))
 ```
+
 
 ## Including Plots
 
